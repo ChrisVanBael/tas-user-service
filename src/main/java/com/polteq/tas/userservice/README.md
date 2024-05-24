@@ -1,0 +1,5 @@
+- post: validate/password
+  - 204 No Content
+  - 401 Unauthorized
+  - 404 Not Found
+- get: user/{email}

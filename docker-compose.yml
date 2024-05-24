@@ -1,0 +1,9 @@
+services:
+
+  tas-user-service:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    container_name: tas-user-service
+    ports:
+      - 8081:8080
