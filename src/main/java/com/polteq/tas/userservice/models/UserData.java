@@ -17,7 +17,7 @@ import java.util.Objects;
 public class UserData {
 
     @Id
-    @NotBlank(message = "Email is mandatory")
+    @NotBlank(message = "Email is required")
     @Email(message = "Email is not valid", regexp = "^[a-zA-Z0-9.-]{1,64}@[a-zA-Z0-9.-]{1,64}\\.[a-zA-Z]{2,6}$")
     private String email;
 
